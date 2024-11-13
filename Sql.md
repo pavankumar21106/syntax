@@ -1,6 +1,6 @@
 # Sql Syntax
 
-# Create table
+### Create table
 
 ``` sql
 
@@ -11,24 +11,24 @@ Create Table User(
 
 ```
 
-# Insert into
+### Insert 
 
 ``` sql
 Insert into User (Id, Name) values (1, Qwerty)
 ```
 
-#Update 
+### Update 
 
 ``` sql
 Update User set Name = 'pavan' where Id = 1
 ```
 
-# Delete
+### Delete
 ``` sql
 Delete from User where Id = 1
 ```
 
- # Join 
+ ### Join 
 
  ``` sql
 Select u.name, a.pincode from User u
