@@ -1,6 +1,16 @@
 # Java
 
-## for HashMap use
+### Data Types
+```
+string
+int
+float
+boolean
+char
+
+```
+
+### for HashMap use
 ``` java
     HashMap<String, Integer> map = new HashMap<>();
 
