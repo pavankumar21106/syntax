@@ -83,6 +83,21 @@ String[] arr = {"qwerty","keyboard"}
 arr.length;
 ```
 
+### List
+```java 
+ArrayList<String> list = new ArrayList<String>();
+ArrayList<Integer> intList = ArrayList<Integer>();
+
+add(value);
+add(index, value);
+get(index);
+set(index, value);
+remove(index);
+clear();
+size();
+Collections.sort(list);
+```
+
 ### HashMap 
 ``` java
     HashMap<String, Integer> map = new HashMap<>();
@@ -107,11 +122,6 @@ HashSet<String> set = new HashSet<String>();
 ```
 
 - HashSet doesn't maintain the insertion order. Here, elements are inserted on the basis of their hashcode.
-
-### List
-```java 
-List<String> list = new ArrayList<String>();
-```
 
 ### Binary string 
 ``` java 
