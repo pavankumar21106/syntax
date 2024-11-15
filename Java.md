@@ -198,6 +198,6 @@ new ArrayList<Double>();
 
 ### Var
 ``` java
-    var list = new ArrayList<List<Integer>>(); // insted of using List<List<Integer>> list = new ArrayList<List<Integer>>();
-    var  list = new ArrayList<String>();  // insted of using List<String> list = new ArrayList<String>();
+var list = new ArrayList<List<Integer>>(); // insted of using List<List<Integer>> list = new ArrayList<List<Integer>>();
+var  list = new ArrayList<String>();  // insted of using List<String> list = new ArrayList<String>();
 ```
