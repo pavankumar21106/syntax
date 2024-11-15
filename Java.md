@@ -1,14 +1,34 @@
 # Java
 
 ### Data Types
-```
+``` java
 string
 int
+long
 float
+double
 boolean
 char
 
 ```
+
+### printing 
+
+``` java
+System.out.print("");
+System.out.println("");
+```
+
+### string
+
+``` java
+string str = "hello";
+str.length();
+str.toUpperCase();
+str.toLowerCase();
+srt.indexOf();
+```
+
 
 ### for HashMap use
 ``` java
