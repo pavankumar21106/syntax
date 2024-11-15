@@ -3,10 +3,6 @@
 ## for HashMap use
 ``` java
     HashMap<String, Integer> map = new HashMap<>();
-```
-## for Hashtable use
-``` java
-    Hashtabel<String, Integer> map = new Hashtable<>();
 
     put(key, value)
     get(key)
