@@ -12,14 +12,14 @@ char
 
 ```
 
-### printing 
+### Printing 
 
 ``` java
 System.out.print("");
 System.out.println("");
 ```
 
-### string
+### String
 
 ``` java
 string str = "hello";
@@ -29,8 +29,41 @@ str.toLowerCase();
 srt.indexOf();
 ```
 
+### If else
 
-### for HashMap use
+``` java
+if(){
+}
+else if(){
+}
+else{
+}
+```
+
+### Switch
+
+``` java
+switch(condition){
+case x:
+break;
+default:
+}
+```
+
+### while
+``` java
+while(){
+}
+```
+
+### Do while
+``` java
+do{
+}
+while();
+```
+
+### HashMap 
 ``` java
     HashMap<String, Integer> map = new HashMap<>();
 
@@ -43,31 +76,31 @@ srt.indexOf();
     values()
 ```
 
-## for string builder
+### String builder
 ``` java
 StringBuilder sb = new StringBuilder("sting");
 ```
 
-## for HashSet
+### HashSet
 ```  java
 HashSet<String> set = new HashSet<String>();
 ```
 
 - HashSet doesn't maintain the insertion order. Here, elements are inserted on the basis of their hashcode.
 
-## for List
+### List
 ```java 
 List<String> list = new ArrayList<String>();
 ```
 
-## for binary string 
+### Binary string 
 ``` java 
 
 String binaryString = Integer.toBinayString(<Integer>);
 
 ```
 
-## stack 
+### Stack 
 ``` java
 import java.util.Stack;
 
@@ -79,7 +112,7 @@ import java.util.Stack;
         size()
         isEmpty()
 ```
-## Queue
+### Queue
 ``` java
 import java.util.Queue;
 Queue<TreeNode> queue = new LinkedList<TreeNode>();
@@ -93,13 +126,13 @@ remove() - Returns and removes the head of the queue. Throws an exception if the
 poll() - Returns and removes the head of the queue. Returns null if the queue is empty.
 
 ```
-## Return empty list
+### Return empty list
 ``` java
 return new int[]{};
 new ArrayList<Double>();
 ```
 
-## Use of Var
+### Var
 ``` java
     var list = new ArrayList<List<Integer>>(); // insted of using List<List<Integer>> list = new ArrayList<List<Integer>>();
     var  list = new ArrayList<String>();  // insted of using List<String> list = new ArrayList<String>();
