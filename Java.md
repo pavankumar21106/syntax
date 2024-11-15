@@ -98,6 +98,19 @@ size();
 Collections.sort(list);
 ```
 
+### Linked list
+``` java
+LinkedList<String> linkedList = new LinkedList<String>();
+
+add(value);
+addFirst();
+addLast();
+removeFirst();
+removeLast();
+getFirst();
+getLast();
+```
+
 ### HashMap 
 ``` java
     HashMap<String, Integer> map = new HashMap<>();
@@ -111,17 +124,37 @@ Collections.sort(list);
     values()
 ```
 
+### HashSet
+```  java
+HashSet<String> set = new HashSet<String>();
+
+add();
+contains();
+remove();
+clear();
+size();
+```
+
+- HashSet doesn't maintain the insertion order. Here, elements are inserted on the basis of their hashcode.
+
+### sorting
+
+``` java
+Collections.sort(name, Collections.reverseOrder());
+Collections.sort(name);
+```
+
+### Naming Convention
+```
+class - PascalCase - NewWord
+method - CamleCase - newWord
+```
+
 ### String builder
 ``` java
 StringBuilder sb = new StringBuilder("sting");
 ```
 
-### HashSet
-```  java
-HashSet<String> set = new HashSet<String>();
-```
-
-- HashSet doesn't maintain the insertion order. Here, elements are inserted on the basis of their hashcode.
 
 ### Binary string 
 ``` java 
