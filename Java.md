@@ -113,15 +113,15 @@ getLast();
 
 ### HashMap 
 ``` java
-    HashMap<String, Integer> map = new HashMap<>();
+HashMap<String, Integer> map = new HashMap<>();
 
-    put(key, value)
-    get(key)
-    remove(key)
-    clear()
-    size()
-    keyset()
-    values()
+put(key, value)
+get(key)
+remove(key)
+clear()
+size()
+keyset()
+values()
 ```
 
 ### HashSet
@@ -167,13 +167,14 @@ String binaryString = Integer.toBinayString(<Integer>);
 ``` java
 import java.util.Stack;
 
-        Stack<String> animals= new Stack<>();
+Stack<String> animals= new Stack<>();
 
-        pop()
-        peek()
-        push()
-        size()
-        isEmpty()
+pop()
+peek()
+push()
+size()
+isEmpty()
+        
 ```
 ### Queue
 ``` java
