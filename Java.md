@@ -2,7 +2,7 @@
 
 ### Data Types
 ``` java
-string
+String
 int
 long
 float
@@ -22,7 +22,7 @@ System.out.println("");
 ### String
 
 ``` java
-string str = "hello";
+String str = "hello";
 str.length();
 str.toUpperCase();
 str.toLowerCase();
@@ -61,6 +61,26 @@ while(){
 do{
 }
 while();
+```
+
+### For
+``` java
+for(int i=0;i<5;i++){
+}
+```
+
+### For each
+``` java
+for(srting s:map.KeySet()){
+    System.out.println("key "+ s +" value: "+map.get(s));
+}
+```
+
+### Arrays
+``` java
+String[] array = new String[10];
+String[] arr = {"qwerty","keyboard"}
+arr.length;
 ```
 
 ### HashMap 
