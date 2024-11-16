@@ -1,5 +1,7 @@
 # Sql Syntax
 
+### Creating a Database
+
 ```sql
 CREATE DATABASE database_name;
 ```
