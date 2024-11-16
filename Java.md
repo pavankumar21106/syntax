@@ -207,7 +207,7 @@ pop()
 peek()
 push(value)
 size()
-empty()
+isEmpty()
 search(value)
         
 ```
