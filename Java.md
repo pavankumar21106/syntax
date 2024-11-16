@@ -117,12 +117,24 @@ Collections.sort(list);
 LinkedList<String> linkedList = new LinkedList<String>();
 
 add(value);
+add(index, value);
 addFirst();
 addLast();
+set(index, value);
+pollFirst();
+pollLast();
 removeFirst();
 removeLast();
+get(index);
 getFirst();
 getLast();
+clear();
+contains();
+indexOf();
+isEmpty();
+toArray();
+sort(null);
+size();
 ```
 
 ### HashMap 
