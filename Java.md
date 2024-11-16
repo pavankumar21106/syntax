@@ -143,11 +143,17 @@ HashMap<String, Integer> map = new HashMap<>();
 
 put(key, value)
 get(key)
+getOrDefault()
 remove(key)
 clear()
 size()
-keyset()
+keySet()
 values()
+isEmpty()
+replace(key, value)
+containsKey()
+containsValue()
+forEach((k,v)=>{})
 ```
 
 ### HashSet
