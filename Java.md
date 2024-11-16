@@ -89,6 +89,8 @@ for(srting s:map.KeySet()){
 String[] array = new String[10];
 String[] arr = {"qwerty","keyboard"}
 arr.length;
+Arrays.sort(arr);
+Arrays.fill(arr, "value");
 ```
 
 ### List
