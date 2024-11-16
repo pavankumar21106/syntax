@@ -110,6 +110,7 @@ isEmpty();
 toArray();
 sort(null);
 Collections.sort(list);
+forEach((n)=>{});
 ```
 
 ### Linked list
@@ -135,6 +136,7 @@ isEmpty();
 toArray();
 sort(null);
 size();
+forEach((n)=>{});
 ```
 
 ### HashMap 
@@ -203,9 +205,10 @@ Stack<String> animals= new Stack<>();
 
 pop()
 peek()
-push()
+push(value)
 size()
-isEmpty()
+empty()
+search(value)
         
 ```
 ### Queue
@@ -214,12 +217,12 @@ import java.util.Queue;
 Queue<TreeNode> queue = new LinkedList<TreeNode>();
 Queue<String> animal1 = new LinkedList<>();
 
-add() - Inserts the specified element into the queue. If the task is successful, add() returns true, if not it throws an exception.
-offer() - Inserts the specified element into the queue. If the task is successful, offer() returns true, if not it returns false.
-element() - Returns the head of the queue. Throws an exception if the queue is empty.
-peek() - Returns the head of the queue. Returns null if the queue is empty.
-remove() - Returns and removes the head of the queue. Throws an exception if the queue is empty.
-poll() - Returns and removes the head of the queue. Returns null if the queue is empty.
+add(index, value)
+peek()
+get()
+size()
+isEmpty()
+remove()
 
 ```
 ### Return empty list
