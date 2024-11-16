@@ -105,6 +105,10 @@ set(index, value);
 remove(index);
 clear();
 size();
+contains();
+isEmpty();
+toArray();
+sort(null);
 Collections.sort(list);
 ```
 
