@@ -225,6 +225,23 @@ isEmpty()
 remove()
 
 ```
+
+### Priority Queue
+
+```java
+PriorityQueue<Integer> pQueue = new PriorityQueue<Integer>();
+
+add();
+peek();
+poll();
+size();
+remove(index);
+get(index);
+isEmpty();
+contains();
+indexOf();
+```
+
 ### Return empty list
 ``` java
 return new int[]{};
