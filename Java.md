@@ -230,6 +230,7 @@ remove()
 
 ```java
 PriorityQueue<Integer> pQueue = new PriorityQueue<Integer>();
+PriorityQueue<Integer> pQueue = new PriorityQueue<Integer>(Collections.reverseOrder());
 
 add();
 peek();
