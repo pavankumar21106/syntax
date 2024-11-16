@@ -27,6 +27,14 @@ str.length();
 str.toUpperCase();
 str.toLowerCase();
 srt.indexOf();
+srt.charAt(index);
+srt.concat();
+srt.contains();
+srt.toCharArray();
+srt.trim();
+srt.split();
+srt.toString();
+srt.replace(char searchChar, char newChar);
 ```
 
 ### If else
