@@ -12,6 +12,13 @@ char
 
 ```
 
+### ASCII
+``` java
+System.out.println('C'-'A');
+System.out.println('d'-'a');
+System.out.println((int)'a');
+```
+
 ### Printing 
 
 ``` java
@@ -35,6 +42,7 @@ srt.trim();
 srt.split();
 srt.toString();
 srt.replace(char searchChar, char newChar);
+srt.substring(startIndex, endIndex);
 ```
 
 ### If else
