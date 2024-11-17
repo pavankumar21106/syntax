@@ -19,6 +19,11 @@ System.out.println('d'-'a');
 System.out.println((int)'a');
 ```
 
+### Imports
+```java
+import java.util.*;
+```
+
 ### Printing 
 
 ``` java
