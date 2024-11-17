@@ -11,6 +11,13 @@ bool
 char
 ```
 
+### ASCII
+```csharp
+Console.WriteLine('d'-'a');
+Console.WriteLine('C'-'A');
+Console.WriteLine((int)'c');
+```
+
 ### Printing
 
 ```csharp
@@ -34,6 +41,7 @@ str.Trim();
 str.Split(',');
 str.Replace('e', 'a');
 str.ToString();
+str.Substring(startIndex, length);
 ```
 
 ### If else
