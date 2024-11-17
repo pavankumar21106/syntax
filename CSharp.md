@@ -28,14 +28,14 @@ Console.WriteLine();
 ### String
 
 ```csharp
-string str = \"hello\";
+string str = "hello";
 str.Length;
 str.ToUpper();
 str.ToLower();
 str.IndexOf('e');
 str[0];
-string.Concat(str, \" additional\");
-str.Contains(\"sub\");
+string.Concat(str, " additional");
+str.Contains("sub");
 str.ToCharArray();
 str.Trim();
 str.Split(',');
@@ -97,10 +97,10 @@ foreach (var item in collection) {
 
 ```csharp
 string[] array = new string[10];
-string[] arr = { \"qwerty\", \"keyboard\" };
+string[] arr = { "qwerty", "keyboard" };
 arr.Length;
 Array.Sort(arr);
-Array.Fill(arr, \"value\");
+Array.Fill(arr, "value");
 ```
 
 ### List
@@ -109,14 +109,14 @@ Array.Fill(arr, \"value\");
 List<string> list = new List<string>();
 List<int> intList = new List<int>();
 
-list.Add(\"value\");
-list.Insert(index, \"value\");
+list.Add("value");
+list.Insert(index, "value");
 var item = list[index];
-list[index] = \"new value\";
+list[index] = "new value";
 list.RemoveAt(index);
 list.Clear();
 list.Count;
-list.Contains(\"value\");
+list.Contains("value");
 list.ToArray();
 list.Sort();
 list.ForEach(item => { /* action */ });
@@ -127,16 +127,16 @@ list.ForEach(item => { /* action */ });
 ```csharp
 LinkedList<string> linkedList = new LinkedList<string>();
 
-linkedList.AddLast(\"value\");
-linkedList.AddFirst(\"value\");
-linkedList.AddBefore(linkedList.First, \"value\");
+linkedList.AddLast("value");
+linkedList.AddFirst("value");
+linkedList.AddBefore(linkedList.First, "value");
 linkedList.RemoveFirst();
 linkedList.RemoveLast();
 var first = linkedList.First.Value;
 var last = linkedList.Last.Value;
 linkedList.Clear();
 linkedList.Count;
-linkedList.Contains(\"value\");
+linkedList.Contains("value");
 linkedList.ToArray();
 ```
 
@@ -145,15 +145,15 @@ linkedList.ToArray();
 ```csharp
 Dictionary<string, int> map = new Dictionary<string, int>();
 
-map[\"key\"] = 123;
-var value = map[\"key\"];
-map.Remove(\"key\");
+map["key"] = 123;
+var value = map["key"];
+map.Remove("key");
 map.Clear();
 int size = map.Count;
-bool hasKey = map.ContainsKey(\"key\");
+bool hasKey = map.ContainsKey("key");
 bool hasValue = map.ContainsValue(123);
 foreach (var kvp in map) {
-    Console.WriteLine($\"Key: {kvp.Key}, Value: {kvp.Value}\");
+    Console.WriteLine($"Key: {kvp.Key}, Value: {kvp.Value}");
 }
 ```
 
@@ -162,9 +162,9 @@ foreach (var kvp in map) {
 ```csharp
 HashSet<string> set = new HashSet<string>();
 
-set.Add(\"value\");
-set.Contains(\"value\");
-set.Remove(\"value\");
+set.Add("value");
+set.Contains("value");
+set.Remove("value");
 set.Clear();
 set.Count;
 ```
@@ -185,7 +185,7 @@ method - camelCase - methodName
 ### StringBuilder
 
 ```csharp
-StringBuilder sb = new StringBuilder(\"string\");
+StringBuilder sb = new StringBuilder("string");
 ```
 
 ### Binary string
@@ -199,12 +199,12 @@ string binaryString = Convert.ToString(integer, 2);
 ```csharp
 Stack<string> stack = new Stack<string>();
 
-stack.Push(\"value\");
+stack.Push("value");
 var item = stack.Pop();
 var peekItem = stack.Peek();
 int stackSize = stack.Count;
 bool isEmpty = stack.Count == 0;
-bool containsValue = stack.Contains(\"value\");
+bool containsValue = stack.Contains("value");
 ```
 
 ### Queue
@@ -212,7 +212,7 @@ bool containsValue = stack.Contains(\"value\");
 ```csharp
 Queue<string> queue = new Queue<string>();
 
-queue.Enqueue(\"value\");
+queue.Enqueue("value");
 var dequeuedItem = queue.Dequeue();
 var peekItem = queue.Peek();
 int queueSize = queue.Count;
