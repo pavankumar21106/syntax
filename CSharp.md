@@ -18,6 +18,14 @@ Console.WriteLine('C'-'A');
 Console.WriteLine((int)'c');
 ```
 
+### NameSpace
+```csharp
+using System;
+using System.Linq;
+using System.Text.RegularExpressions;
+using System.Collections.Generic;
+```
+
 ### Printing
 
 ```csharp
