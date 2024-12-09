@@ -267,3 +267,33 @@ new ArrayList<Double>();
 var list = new ArrayList<List<Integer>>(); // insted of using List<List<Integer>> list = new ArrayList<List<Integer>>();
 var  list = new ArrayList<String>();  // insted of using List<String> list = new ArrayList<String>();
 ```
+
+
+### Convertions
+```java
+import java.util.Scanner;
+
+Scanner scanner = new Scanner(System.in);
+int age = Integer.parseInt(scanner.nextLine());
+String myString = Integer.toString(age);
+```
+
+### Input from console 
+
+```java
+import java.util.Scanner;
+
+Scanner scanner = new Scanner(System.in);
+int age = Integer.parseInt(scanner.nextLine());
+String userName = scanner.nextLine();
+```
+
+### ASCII
+```java
+System.out.println((int) 'a');
+System.out.println((int) 'A');
+A - 65
+a - 97
+Total alphabets count - 26
+```
+

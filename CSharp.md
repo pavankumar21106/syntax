@@ -251,3 +251,26 @@ new List<double>();
 var list = new List<List<int>>(); 
 var stringList = new List<string>(); 
 ```
+
+### Convertions
+```csharp
+int age = Convert.ToInt32(Console.ReadLine());
+string myString = myInt.ToString();
+```
+
+### Input from console 
+
+```csharp
+int age = Convert.ToInt32(Console.ReadLine());
+string userName = Console.ReadLine();
+```
+
+### ASCII
+```csharp
+Console.WriteLine (Convert.ToInt32('a'));
+Console.WriteLine (Convert.ToInt32('A'));
+A - 65
+a - 97
+Total alphabets count - 26
+```
+
