@@ -40,6 +40,17 @@ var results = collection1.Join(collection2,
                                element2 => element2.Key2,
                                (element1, element2) => new { element1, element2 });
 ```
+```csharp
+ar query = orders.Join(customers,
+                        order => order.CustomerId,
+                        customer => customer.CustomerId,
+                        (order, customer) => new
+                        {
+                            OrderId = order.OrderId,
+                            CustomerName = customer.Name,
+                            OrderDate = order.OrderDate
+                        });
+```
 
 ### Aggregate Operations
 
